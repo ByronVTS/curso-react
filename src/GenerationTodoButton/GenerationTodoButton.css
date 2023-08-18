@@ -1,0 +1,16 @@
+.generationTodoButton{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+    background: conic-gradient(at right top, rgb(56, 189, 248), rgb(251, 113, 133), rgb(163, 230, 53));
+    border-radius: 10px;
+    border: none;
+}
+
+.generationTodoButton button{
+    background: conic-gradient(at right top, rgb(56, 189, 248), rgb(251, 113, 133), rgb(163, 230, 53));
+    margin: 15px ;
+    padding: 10px;
+    z-index: 1;
+}

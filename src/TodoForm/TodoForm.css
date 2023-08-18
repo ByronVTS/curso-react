@@ -1,0 +1,34 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+label{
+    margin: 10px;
+}
+textarea{
+    width: 70%;
+    height: 50px;
+    margin: 10px auto;
+}
+.TodoForm-buttonContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+} 
+.TodoForm-button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+.TodoForm-button--cancel{
+    background-color: rgb(175, 72, 72);
+}
+.TodoForm-button--add{
+    background-color: rgb(72, 175, 123);
+}
+
